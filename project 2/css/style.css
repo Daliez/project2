@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 15px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 100%;
+    color: white;
+    font-size: 25px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0 15px;
+    padding: 0;
+}
+.main-nav li {
+    display: flex;
+    align-items: center;
+}
+
+.main-nav ul li a {
+    padding: 0 30px;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    
+}
+
+.links {
+    display: flex;
+}
+
+.links span:first-child a{
+    padding: 15px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color: white;
+    background-color: #5033fe;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 5px;
+    display: flex;
+    border-radius: 8px;
+}
+
+.links span:nth-child(2) a {
+    padding: 15px 25px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+    color: black;
+    background-color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    border-radius: 8px;    
+}
+.main-section {
+    background-image: url(../imgs/backgroundphoto.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.phone-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.phone-img img {
+    width: 500px;
+}
+.text-box {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+.text-box h1 {
+    font-size: 50px;
+    color: white;  
+    margin: 0;  
+}
+.text-box span {
+    color: white;
+    font-size: 22px;
+    margin: 25px 0;
+}
+.text-box a {
+    text-decoration: none;
+    color: white;
+    background-color: #5033fe;
+    border-radius: 6px;
+    padding: 18px 24px;
+    font-size: 15px;
+    width: fit-content;    
+}
+
+.benefits {
+    position: absolute;
+    bottom: -37px;
+    margin: auto;
+    width: 100%;
+}
+
+.hero-box {
+    height: 100vh;
+    position: relative;
+}
+
+.benefit-wrapper {
+    display: flex;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+.benefit-block {
+    width: 25%;
+    border: 1px solid #e6e6e6;
+    color: black;
+    background-color: white;
+    padding: 16px 24px;
+    font-size: 18px;
+}
+.benefits span {
+    color: white;
+    font-size: 20px;
+    margin: 10px 0;
+    display: block;
+}
+
+.benefits h4 {
+    color: white;
+    font-size: 22px;
+    margin: 0;    
+}
+.payment {
+    margin-top: 70px;
+    background-color: rgba(231, 231, 231, 0.699);
+}
+.bank-logo {
+    display: flex;
+}
+.payment-img {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+.payment-img img {
+    height: 100px;
+}
+.payment-img:first-child img {
+    width: 100%;
+    height: auto !important;
+}
